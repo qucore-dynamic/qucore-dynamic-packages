@@ -7,6 +7,7 @@
     "target": "es2022",
     "module": "nodenext",
     "moduleResolution": "nodenext",
+    "isolatedModules": true,
     "noEmit": false,
     "strict": true,
     "resolveJsonModule": true,
@@ -16,12 +17,12 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "typeRoots": ["./node_modules/@types"],
+    "types": ["node", "jest"],
     "paths": {
       "@src/*": ["./src/*"],
       "@tests/*": ["./tests/*"],
       "@ts/*": ["./ts/*"]
-    },
-    "types": ["node"]
+    }
   },
   "include": ["src/**/*", "ts/**/*", "tests/**/*"],
   "exclude": ["node_modules", "dist"]

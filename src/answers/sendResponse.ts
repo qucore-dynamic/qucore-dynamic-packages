@@ -14,7 +14,7 @@ export const defaultCodes: Record<number, string> = {
 
 export default function sendResponse<T>(
   res: Response,
-  { status = 200, code, message, cookies, headers, data }: SendResponseOptions<T>,
+  { status = 200, code, message, cookies, headers, data }: SendResponseOptions<T> = {},
 ) {
   const response: AppResponse<T> = {
     code: code ?? defaultCodes[status] ?? 'UNKNOWN',
