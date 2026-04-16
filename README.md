@@ -100,11 +100,6 @@ Example output:
 }
 ```
 
-## Environment variables
-
-- **ACCESS_SECRET** - secret for access tokens
-- **REFRESH_SECRET** - secret for refresh tokens
-
 ## License
 
 **GPL-3.0**

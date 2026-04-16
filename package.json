@@ -1,7 +1,7 @@
 {
   "name": "@qucore-dynamic/packages",
   "description": "Backend utilities for QuCore Dynamic services: JWT validation, request ID generation, type-safe responses, standardized response and error helpers.",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.4",
   "publishConfig": {
     "access": "public"
   },
